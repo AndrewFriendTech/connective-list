@@ -1,0 +1,25 @@
+{
+  "name": "connective-list",
+  "version": "1.0.0",
+  "description": "Creates a grammatically correct string of words. Turns [\"dog\",\"cat\",\"mouse\"] into \"dog, cat and mouse\". Can be localised to work with non-english connectives. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewFriendTech/connective-list.git"
+  },
+  "keywords": [
+    "Connective",
+    "Grammar",
+    "String",
+    "Words"
+  ],
+  "author": "Andrew Friend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewFriendTech/connective-list/issues"
+  },
+  "homepage": "https://github.com/AndrewFriendTech/connective-list#readme"
+}

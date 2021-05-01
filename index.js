@@ -1,3 +1,18 @@
+/**
+ * 
+ * Takes a string of words and forms them into a grammatically correct list.
+ * Example: ["dog","cat","mouse"] will be turned into "dog, cat and mouse"
+ * 
+ * **Notes**
+ * 
+ * Doesn't perform any validation on the words themselves.
+ * Also does not punctuate the end of the list automatically nor changes capitalization. 
+ *  
+ * @param {string[]} items words to include in the list 
+ * @param {string} [connective = and ] connective for the list.
+ * @returns {string} The string of the list of words.
+ */
+
 function connectiveList(items,connective){
     if(!items.length){
         throw "items must be an array"
